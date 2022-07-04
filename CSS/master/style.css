@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+@font-face {
+    font-family: 'Helvetica South';
+    src: local(Helvetica), url('../font/Helvetica.ttf');
+}
+
+body{
+    font-family: 'Helvetica South';
+}
+
+.nav-home{
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.ul-content-home a{
+    color: white;
+    padding: 5px;
+    letter-spacing: 0.5px;
+}
+
+.ul-content-home a:hover{
+    color: grey;   
+    border-bottom: 1px solid grey;
+    transition: 0.5s linear;
+}
+
+.south-logo{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    margin-right:80px;
+}
+
+/* header de cima */
+
+.header-container-top{
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	border-bottom: 1px solid grey;
+}
+
+.container-box-header{
+	width: 750px;
+	height: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0px 10px 0px -55px;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+.box-central{
+    display: flex;
+}
+
+.box1, .box2, .box3{
+	display: flex;
+	color: white;
+}
+
+.box1{
+	transform: translateX(20px);
+}
+
+.box1 i{
+	margin-right: 5px;
+	font-size: 15px;
+	transform: translateY(-2.5px);
+    color: white;
+}
+
+.box2 i{
+	margin-right: 5px;
+	font-size: 15px;
+	transform: translateY(-2.5px);
+    color: white;
+}
+
+.box3 i{
+	margin: 0px 5px 0px 10px;
+	font-size: 15px;
+	transform: translateY(-2.5px);
+    color: white;
+}
+
+/* Header principal */
+
+.content-nav{
+    display: flex; 
+    background-color: rgb(0, 0, 0); 
+}
+
+.content-header-top{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    border-bottom: 1px solid rgb(131, 131, 131);
+    height: 45px;
+    background: black;
+}
+
+.header-top-box-icon div, a{
+    transform: translateX(10px);
+}
+
+.header-end {
+    transform: translateX(-10px);
+}
+
+.header-top-box-icon{
+    display:flex;
+}
+
+.header-end p{
+    margin-right: 1em;
+}
+
+.icon-left-space{
+    margin-left: 30px;
+    display: flex;
+    height: 20px;
+    width: 20px;
+}
+
+.icon{
+    display: flex;
+}
+
+.header-container-bottom{
+	background-color: black; 
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	border-bottom: 1px solid rgb(131, 131, 131);
+}
+
+.content-header-bottom{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    background-color: black;
+    height: 100px;
+	width: 720px;
+}
+
+i{
+    color: white;
+}
+
+
+.nav-home ul{
+    display: flex;
+}
+
+.section-header a{
+    margin-left: 20px;
+    color: white;
+}
+
+p{
+    margin-left: 5px;
+}
+
+.content-header-top p{
+    font-size: 11px;
+    color: white;
+}
+
+.header-top-box-icon p{
+    margin-left: -15px;
+}
+
+.manual a{
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+.manual i{
+    width: 15px;
+    color: white
+}
+
+/* Logo do website e tags do rodapé */
+
+.container_footer{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid grey;
+    padding: 30px 0px 10px 0px;
+}
+
+.box-footer{
+    flex-direction: column;
+}
+
+.container_footer img{
+    width: 250px;
+    height: 100px;
+}
+
+.Flex-esp li{
+    font-size: 11px;
+	padding: 10px;
+    color: white;
+}
+
+.box-icons-seg{
+   display: flex;
+   justify-content: center;
+   background-color: black;
+}
+
+.box-icons-seg i{
+    padding: 10px 5px 10px 5px;
+    font-size: 25px;
+    margin-top: -25px;
+    color: white;
+}
+
+.Flex-esp ul{
+    display: flex;
+}
+
+.Flex-esp a{
+    letter-spacing: 0.5px;
+}
+
+.Flex-esp  ul a li:hover{
+    color: grey;   
+    transition: 0.5s linear;
+	border-bottom: 1px solid grey;
+}
+
+.container_footer-direitos{
+    text-align: center;
+    font-size: 11px;
+    background-color: black; 
+    padding-bottom: 35px;
+}
+
+.logo-img-south{
+    margin-top: -25px;
+}

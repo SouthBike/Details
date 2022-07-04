@@ -1,0 +1,115 @@
+@font-face{
+	font-family: 'Helvetica South';
+	src: local(Helvetica), url('..font/Helvetica.ttf');
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Helvetica South';
+    font-family: sans-serif;
+}
+
+.card-details{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 750px;
+	margin-top: -100px;
+	margin-bottom: 100px;
+}
+
+.card{
+	position: relative;
+	width: 60vw;
+	height: 450px;
+	background-color: rgba(128, 128, 128, 0.527);
+	box-shadow: 0 15px 45px rgba(0,0,0,0.2);
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+
+.container-march{
+	background-color: grey;
+	height: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-details-img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card .details{
+	position: relative;
+	left: 0;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	flex-direction: column;
+}
+
+.card .details h3{
+	color: black;
+	text-transform: uppercase;
+	font-weight: 600px;
+	font-size: 1.5em;
+	line-height: 1em;
+}
+
+.card .details h3 span{
+	font-size: 0.65em;
+	font-weight: 300;
+	text-transform: none;
+	opacity: 0.85;
+    color: black;
+}
+
+.card .details h4{
+	color: black;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 0.9em;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	line-height: 1em;
+}
+
+.card .details p{
+	color: black;
+	opacity: 0.75;
+	font-size: 1em;
+	line-height: 30px
+}
+
+.card .details .size{
+	display: flex;
+	gap: 10px;
+}
+
+.card .details .size li{
+	list-style: none;
+	font-size: 0.9em;
+	color: black;
+	width: 40px;
+	height: 40px;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 500;
+	opacity: 0.65;
+	cursor: pointer;
+}
+
+.card .details .size li:hover{
+	color: black;
+	background-color: white;
+	opacity: 0.5 ;
+}
